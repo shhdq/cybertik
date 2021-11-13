@@ -13,6 +13,10 @@ export default function Home() {
       </Head>
       <h1>Cybertik:</h1>
       <p>Website comming soon...</p>
+      <br/>
+      <ul>
+        <li></li>
+      </ul>
     </div>
   )
 }
