@@ -15,7 +15,7 @@ export default function Home() {
       <p>Website comming soon...</p>
       <br/>
       <ul>
-        <li></li>
+        <li>Test</li>
       </ul>
     </div>
   )
