@@ -12,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Cybertik:</h1>
+      <p>Website comming soon...</p>
     </div>
   )
 }
