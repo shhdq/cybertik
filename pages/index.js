@@ -16,6 +16,7 @@ export default function Home() {
       <br/>
       <ul>
         <li>Test</li>
+        <li>test2</li>
       </ul>
     </div>
   )
