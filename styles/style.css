@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: "Roboto", sans-serif;
 }
 .container {
@@ -80,9 +80,6 @@ div.scrollmenu a:hover {
   font-weight: bold;
 }
 @media only screen and (max-width: 800px) {
-  .container {
-    height: 90vh;
-  }
   .cta {
     padding: 20px;
     width: 100%;
