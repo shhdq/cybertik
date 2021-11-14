@@ -1,9 +1,19 @@
+@import url("./fonts/Roboto-Bold.ttf");
+
+@font-face {
+  font-family: logoBold;
+  src: url(/styles/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(/styles/fonts/Roboto-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
 }
-html {
-  font-family: "Roboto", sans-serif;
+body {
+  font-family: regular;
 }
 
 header {
@@ -15,6 +25,7 @@ header {
   padding: 10px;
 }
 .logo-section a {
+  font-family: logoBold;
   font-size: 32px;
   color: #222222;
   text-decoration: none;
@@ -25,6 +36,24 @@ header {
   color: #f6546a;
 } */
 footer {
+  background-color: #eeeeee;
   position: relative;
-  /* left: 20px; */
+  bottom: 0;
+}
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: #222222;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+  color: white;
 }
