@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .container {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -80,6 +80,9 @@ div.scrollmenu a:hover {
   font-weight: bold;
 }
 @media only screen and (max-width: 800px) {
+  .container {
+    height: 80vh;
+  }
   .cta {
     padding: 20px;
     width: 100%;
