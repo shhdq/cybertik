@@ -12,6 +12,7 @@ header {
   justify-content: center;
   width: 200px;
   background-color: #eeeeee;
+  padding: 10px;
 }
 .logo-section a {
   font-size: 32px;
