@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  background-color: #eeeeee;
+}
+.logo-section a {
+  font-size: 32px;
+  color: #222222;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+/* .dots {
+  color: #f6546a;
+} */
+footer {
+  position: relative;
+  /* left: 20px; */
+}
