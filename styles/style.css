@@ -4,6 +4,7 @@
   padding: 0;
 }
 body {
+  overflow: hidden;
   font-family: "Roboto", sans-serif;
 }
 .container {
@@ -36,8 +37,6 @@ header {
 .cta {
   padding: 30px;
   width: 50%;
-  display: flex;
-  flex-direction: column;
   background-color: rgba(255, 255, 255, 0.6);
 }
 .cta h3 {
@@ -47,11 +46,20 @@ header {
   font-size: 60px;
   letter-spacing: 3px;
 }
+#cta-btn {
+  font-size: 20px;
+  border: none;
+  width: 300px;
+  height: 50px;
+}
+#cta-btn:hover {
+  font-weight: bold;
+}
 /* .dots {
   color: #f6546a;
 } */
 footer {
-  background-color: #eeeeee;
+  background-color: #222222;
 }
 div.scrollmenu {
   overflow: auto;
@@ -60,7 +68,7 @@ div.scrollmenu {
 
 div.scrollmenu a {
   display: inline-block;
-  color: #222222;
+  color: white;
   text-align: center;
   padding: 24px;
   text-decoration: none;
