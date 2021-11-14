@@ -52,11 +52,12 @@ div.scrollmenu a {
   display: inline-block;
   color: #222222;
   text-align: center;
-  padding: 14px;
+  padding: 24px;
   text-decoration: none;
 }
 
 div.scrollmenu a:hover {
   background-color: #777;
   color: white;
+  font-weight: bold;
 }
