@@ -15,7 +15,12 @@
 body {
   font-family: regular;
 }
-
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 header {
   display: flex;
   align-items: center;
@@ -37,8 +42,6 @@ header {
 } */
 footer {
   background-color: #eeeeee;
-  position: relative;
-  bottom: 0;
 }
 div.scrollmenu {
   overflow: auto;
